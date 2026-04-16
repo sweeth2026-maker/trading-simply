@@ -1,0 +1,118 @@
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+ about.html 
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>من أنا | تداوم ببساطة</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">تداوم ببساطة</a>
+      <nav class="nav">
+        <a class="active" href="about.html">من أنا</a>
+        <a href="services.html">الخدمات</a>
+        <a href="education.html">التعليم</a>
+        <a href="blog.html">المدونة</a>
+        <a class="btn" href="contact.html">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <h1>من أنا</h1>
+      <p class="lead">أنا متداول مخضرم، وهدفي تبسيط التداول وإعطاؤك طريقة تفكير واضحة بدل “توصيات”.</p>
+
+      <div class="card">
+        <h2>ما الذي أقدمه؟</h2>
+        <ul>
+          <li>فهم الهياكل: ABC وما بعدها (WXY / WXYXZ) بطريقة عملية.</li>
+          <li>قراءة الزخم (مثل Divergence/No Divergence) وتوقيته.</li>
+          <li>قواعد دخول/خروج وإدارة مخاطرة تمنعك من “الانتقام” من السوق.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>فلسفتي</h2>
+        <p>
+          التداول ليس أسرارًا؛ هو نظام: بنية سوق + تأكيد + إدارة مخاطرة + انضباط.
+          لهذا ستجد المحتوى هنا منظّمًا من “الهيكل” إلى “التنفيذ”.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> تداوم ببساطة</p>
+      <p><a href="mailto:sweeth2026@gmail.com">sweeth2026@gmail.com</a> | <a href="tel:+212768863112">+212 768 863 112</a></p>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
+ services.html 
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الخدمات | تداوم ببساطة</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">تداوم ببساطة</a>
+      <nav class="nav">
+        <a href="about.html">من أنا</a>
+        <a class="active" href="services.html">الخدمات</a>
+        <a href="education.html">التعليم</a>
+        <a href="blog.html">المدونة</a>
+        <a class="btn" href="contact.html">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <h1>الخدمات</h1>
+      <p class="lead">خدمة تعليم/إرشاد للمتداولين مع منهج واضح من التحليل إلى التنفيذ.</p>
+
+      <div class="pricing card">
+        <div>
+          <h2>برنامج “تداوم ببساطة”</h2>
+          <p>تعليم عملي + خطة تداول + قواعد دخول آمنة.</p>
+          <ul>
+            <li>قراءة الهياكل (ABC / WXY / WXYXZ)</li>
+            <li>تمييز أنواع التصحيح والتعامل معها</li>
+            <li>شروط الدخول حسب الزخم (Divergence/No Divergence)</li>
+            <li>إدارة مخاطرة وخطة واضحة</li>
+          </ul>
+        </div>
+        <div class="price-box">
+          <p class="price">600$</p>
+          <p class="small">للتفاصيل والتسجيل</p>
+          <a class="btn" href="contact.html">تواصل</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>كيف يتم التواصل؟</h2>
+        <p>عبر البريد أو الهاتف. اكتب اسمك وهدفك من التعلم وخبرتك الحالية.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> تداوم ببساطة</p>
+      <p><a href="mailto:sweeth2026@gmail.com">sweeth2026@gmail.com</a> | <a href="tel:+212768863112">+212 768 863 112</a></p>
