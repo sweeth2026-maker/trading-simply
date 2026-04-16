@@ -1,0 +1,104 @@
+
+1) شكل الموقع (Sitemap)
+• / الرئيسية (تعريف سريع + دعوة للتواصل + إبراز الخدمات)
+• /about.html من أنا
+• /services.html الخدمات (يشمل عرض 600$)
+• /education.html التعليم (أسلوبك/ماذا سيتعلم المتدرب)
+• /blog.html المدونة (قائمة مقالات)
+• /post.html صفحة مقال (نموذج)
+• /contact.html تواصل (Gmail + رقم الهاتف)
+
+2) ملفات الموقع الجاهزة (انسخها كما هي)
+ index.html 
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>تداوم ببساطة | مدونة تداول وتعليم</title>
+  <meta name="description" content="مدونة عربية عن التداول + خدمات تعليم وإرشاد للمتداولين. تداوم ببساطة." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">تداوم ببساطة</a>
+      <nav class="nav">
+        <a href="about.html">من أنا</a>
+        <a href="services.html">الخدمات</a>
+        <a href="education.html">التعليم</a>
+        <a href="blog.html">المدونة</a>
+        <a class="btn" href="contact.html">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="badge">مدونة عربية</p>
+        <h1>أنا متداول مخضرم، وأعلّمك التداول بخطوات واضحة وبأسلوب بسيط.</h1>
+        <p class="lead">
+          هنا تجد مقالات تعليمية، شرح هياكل السوق، وإرشاد عملي يساعدك تبني خطة تداول من الهيكل إلى التنفيذ.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="services.html">شاهد الخدمات</a>
+          <a class="btn secondary" href="blog.html">اذهب للمدونة</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <div class="card">
+          <h3>تعليم عملي</h3>
+          <p>منطق السوق، الهياكل، إدارة المخاطر، وخطة دخول/خروج قابلة للتطبيق.</p>
+        </div>
+        <div class="card">
+          <h3>محتوى عربي واضح</h3>
+          <p>شرح مباشر بدون تعقيد، مع أمثلة وقواعد تساعدك تتخذ قرار بثقة.</p>
+        </div>
+        <div class="card">
+          <h3>خدمة مدفوعة</h3>
+          <p>برنامج/خدمة تعليمية بسعر <strong>600$</strong> (تفاصيل داخل صفحة الخدمات).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted">
+      <div class="container">
+        <h2>أحدث المقالات</h2>
+        <div class="posts">
+          <article class="post">
+            <h3><a href="post.html">كيف تقرأ بنية ABC بطريقة عملية</a></h3>
+            <p>تبسيط نموذج ABC ومتى نتعامل مع WXY أو WXYXZ…</p>
+          </article>
+          <article class="post">
+            <h3><a href="post.html">أنواع التصحيحات: Regular / Running / Expanded / Contracting</a></h3>
+            <p>متى يكون التصحيح خدّاعًا؟ ومتى يدل على قوة استمرار الاتجاه؟</p>
+          </article>
+          <article class="post">
+            <h3><a href="post.html">قاعدة “آخر جدار” وإشارات الدخول الآمنة</a></h3>
+            <p>متى تعتبر الكسر تلاعبًا؟ وكيف تتجنب الدخول المتسرع؟</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta">
+        <div>
+          <h2>جاهز تبدأ بشكل صحيح؟</h2>
+          <p>تواصل معي للحصول على تفاصيل التعليم والخدمة.</p>
+        </div>
+        <a class="btn" href="contact.html">تواصل الآن</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> تداوم ببساطة</p>
+      <p><a href="mailto:sweeth2026@gmail.com">sweeth2026@gmail.com</a> | <a href="tel:+212768863112">+212 768 863 112</a></p>
+    </div>
+  </footer>
